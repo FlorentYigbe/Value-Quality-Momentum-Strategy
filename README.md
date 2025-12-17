@@ -1,2 +1,4 @@
 # Value-Quality-Momentum-Strategy
-Quantitative Equity Investment Strategy Project designed and presented a rules-based equity investment strategy combining value, quality, and momentum factors. The project covers universe selection, alpha signal construction, portfolio optimization, risk management, and historical backtesting against major benchmarks implemented with Python using data from yfinance.
+Developed and backtested over 10 years a factor-based equity strategy (Value, Quality, Momentum) on S&P 500 stocks, achieving 12.96% annualized return vs. 11.28% benchmark S&P500 with lower Max Drawdown (-29,34% vs. -33,92%).
+Built a composite alpha signal using valuation (P/E, EV/EBITDA, P/B), profitability (ROE), leverage, and momentum filters, implemented semi-annual rebalancing and risk controls (VaR, CVaR, Max Drawdown, Stop-loss).
+Implemented with Python using data from yfinance.
